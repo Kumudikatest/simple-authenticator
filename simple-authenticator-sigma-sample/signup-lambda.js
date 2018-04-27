@@ -23,6 +23,6 @@ exports.handler = function (event, context, callback) {
 			console.log(results);
 		}
 		connection.end();
-		callback(null, response);
+		// callback(null, response);
 	});
 }
